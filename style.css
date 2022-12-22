@@ -7,6 +7,32 @@
   --background-dark: #01435A;
   --background-footer: #FDDBCB;
   --background: #FDF7F0;
-  --special-font: 'Permanent Marker';
-  
+  --special-font: 'Permanent Marker';  
 }
+
+.headcolor {
+background-color: var(--text-primary);
+}
+button {
+  width: 8em;
+  height: 2em;
+  border-radius: .5em;
+  margin-right: 2em;
+  align-self: center;
+}
+
+.cont-header {
+  display: flex;
+  direction: column;
+  justify-content: end;
+  max-width: 100%;
+
+  border: solid blue;
+
+
+
+
+}
+/* .header {
+  border: solid blue;
+} */
