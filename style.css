@@ -36,9 +36,11 @@ button {
 .cont-header {
   display: flex;
   direction: column;
-  justify-content: end;
+  justify-content: space-between;
   max-width: 100%;
   margin-right: 2em;
+  margin-left: 80rem;
+  f
   
 
 
