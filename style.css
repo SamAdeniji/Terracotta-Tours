@@ -7,17 +7,29 @@
   --background-dark: #01435A;
   --background-footer: #FDDBCB;
   --background: #FDF7F0;
-  --special-font: 'Permanent Marker';  
+  --special-font: 'Permanent Marker';
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+img {
+  width: 100%;
 }
 
 .headcolor {
-background-color: var(--text-primary);
+  background-color: var(--text-primary);
 }
+
 button {
   width: 8em;
   height: 2em;
-  border-radius: .5em;
-  margin-right: 2em;
+  border-radius: .5rem;
+  padding-inline: 0.5rem;
+  margin-right: 2rem;
   align-self: center;
 }
 
@@ -26,13 +38,14 @@ button {
   direction: column;
   justify-content: end;
   max-width: 100%;
-
-  border: solid blue;
+  margin-right: 2em;
+  
 
 
 
 
 }
+
 /* .header {
   border: solid blue;
 } */
