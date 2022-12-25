@@ -8,6 +8,7 @@
   --background-footer: #FDDBCB;
   --background: #FDF7F0;
   --special-font: 'Permanent Marker';
+  --poppins-font: 'Poppins';
 }
 
 * {
@@ -39,24 +40,39 @@ img {
 
 .white-text {
   color: var(--text-reversed);
-  
+
 }
 
 .font-pop {
-  font-family: 'Poppins';
+  font-family: var(--poppins-font);
+}
+
+.pop-weight {
+  font-size: 1.2rem;
+  /* line-height: 0.4em; */
 }
 
 .font-marker {
-  font-family: 'Permanent Marker';
+  font-family: var(--special-font);
 }
+
+.marker-weight {
+  font-size: 4.5em;
+  line-height: 0.4em;
+}
+
 .gray-text {
   color: var(--text-secondary)
-  
 }
+
+
+
+
+
 
 .green-text {
   color: var(--accent-green);
-  font-family: 'Poppins';
+  /* font-family: 'Poppins'; */
 }
 
 a:link {
@@ -138,7 +154,7 @@ li {
   background-color: burlywood;
   max-width: 100%;
   height: 38em;
-  
+
 }
 
 .conto {
@@ -148,24 +164,20 @@ li {
   max-width: 100%;
 }
 
-.marker-weight {
-  font-size: 4.5em;
-  line-height: 0.4em;
-}
 
 .split {
   display: flex;
   flex-direction: row;
-  justify-content: start; 
+  justify-content: space-between;
   flex-wrap: wrap;
-  
 
 }
 
 .award {
-  max-width: 60%;
-  height: 30em;
-  margin-inline: 3%;
+  max-width: 45%;
+  width: auto;
+  height: auto;
+  margin: 8%;
   border: solid red;
 
 }
