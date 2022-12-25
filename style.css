@@ -39,7 +39,19 @@ img {
 
 .white-text {
   color: var(--text-reversed);
+  
+}
+
+.font-pop {
   font-family: 'Poppins';
+}
+
+.font-marker {
+  font-family: 'Permanent Marker';
+}
+.gray-text {
+  color: var(--text-secondary)
+  
 }
 
 .green-text {
@@ -100,14 +112,11 @@ nav {
   height: 5rem;
   margin-right: 2em;
   list-style-type: none;
-
 }
 
-.marker {
+/* .marker {
   color: var(--text-reversed);
-  font-family: 'Permanent Marker';
-
-}
+} */
 
 .spacer-1 {
   margin-right: 50em;
@@ -147,7 +156,7 @@ li {
 .split {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: start; 
   flex-wrap: wrap;
   
 
