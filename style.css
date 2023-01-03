@@ -12,7 +12,7 @@
   --background-whole: #FDF7F0;
 }
 
-* {
+*, ::after, ::before {
   box-sizing: border-box;
   max-width: auto;
   /* font-family: "Poppins"; */
@@ -253,6 +253,7 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: var(--background-footer);
 }
 
 .sub-footer-container {
@@ -261,6 +262,7 @@ li {
   align-items: center;
   width: 3%;
   margin-inline: 5%;
+  padding: .5em;
 }
 
 
