@@ -20,6 +20,8 @@
 
 body {
   background-color: var(--background-whole);
+  padding: 0;
+  margin: 0;
 }
 
 .back-fill {
