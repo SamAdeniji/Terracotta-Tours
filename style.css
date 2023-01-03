@@ -24,6 +24,10 @@ body {
   margin: 0;
 }
 
+.bg-white {
+  background-color: var(--background-other);
+}
+
 .back-fill {
   background-color: var(--accent-green);
 }
@@ -161,10 +165,10 @@ nav {
   margin-right: 50em;
 }
 
-.spacer-2 {
-  /* margin-right: 2rem; */
+/* .spacer-2 {
+  margin-right: 2rem;
 
-}
+} */
 
 li {
   list-style-type: none;
