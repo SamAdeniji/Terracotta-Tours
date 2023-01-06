@@ -18,6 +18,7 @@
   /* font-family: "Poppins"; */
 }
 
+
 body {
   background-color: var(--background-whole);
   padding: 0;
@@ -26,6 +27,8 @@ body {
 
 .bg-white {
   background-color: var(--background-other);
+  height: auto;
+  margin: 2%;
 }
 
 .back-fill {
@@ -48,6 +51,7 @@ body {
 
 img {
   width: 100%;
+  display: block;
 }
 
 .headcolor {
@@ -145,7 +149,7 @@ nav {
 }
 
 
-.cont-header {
+.cont-header, .nav-bar {
   display: flex;
   direction: horizontal;
   justify-content: space-between;
@@ -155,8 +159,17 @@ nav {
   height: 5rem;
   margin-right: 2em;
   list-style-type: none;
+  /* border: solid red; */
+}
+.nav {
+
+  /* border: solid green; */
 }
 
+ul {
+  /* border: solid blue; */
+  max-width: 30%;
+}
 /* .marker {
   color: var(--text-reversed);
 } */
